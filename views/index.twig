@@ -1,0 +1,7 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+  {% for local in locals %}
+    <h2>{{ local.employee_name }}</h2>
+  {% endfor %}
+{% endblock %}
